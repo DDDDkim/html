@@ -1,0 +1,25 @@
+eclipse 환경설정
+	window - preference - enc검색 - UTF-8
+
+서버 생성
+탐색기 - D:\B_Util\1.설치 및 압축파일\[13]Apache tomcat
+	apache tomcat7 버전
+	D:\B_Util\5.ApacheTomcat
+
+conf 폴더에 server.xml 수정
+port="80" URIEncoding="UTF-8"
+
+Eclipse에 서버 연결
+window - preference - server - runtime environments
+add - apachetomcat7.0 선택 -> 압축푼 위치 설정
+프로젝트 생성
+dynamic webproject
+
+브라우저 설정
+	window-preference - general - web browser - new - 크롬
+	window - web browser - 크롭
+
+파일들 생성
+WebContent -
+폴더 관리
+ html, css, image, jsp
